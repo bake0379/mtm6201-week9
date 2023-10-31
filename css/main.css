@@ -8,8 +8,34 @@
     transform-origin: center center;
 }
 
-
-
 .dice4:hover g{
     transform: scale(.3)
+}
+
+/* smiley face */
+.cls-1{
+    fill:#ffe269;}
+
+.cls-2{
+    fill:#fff;}
+
+.cls-3{
+    fill:#fcf0c0;}
+
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+       transform: translateX(10px);
+    }
+}
+
+
+.pupil{
+    animation:move 1s infinite alternate ease-in-out;
+}
+
+.smiley:hover .pupil{
+    animation-play-state: paused;
 }
