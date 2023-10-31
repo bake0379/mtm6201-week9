@@ -1,0 +1,15 @@
+.dice4 circle{
+    fill: yellow;
+}
+
+/* selecting the g tag */
+.dice4 g{
+    transition: all 4s;
+    transform-origin: center center;
+}
+
+
+
+.dice4:hover g{
+    transform: scale(.3)
+}
